@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: white;
+    margin-left: 30%;
+    margin-right: 25%;
+}
+
+.titulo1 {
+    left: 20%;
+    position: relative;
+    /* color: #00c8ff; */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    
+    font-weight: bold;
+    background: linear-gradient(90deg, #0073ef, #a3bcff, rgb(0, 255, 170));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+h2 {
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.765);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ff9e9e, #33d3ff, rgb(0, 255, 213));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  */
+    color: rgb(74, 115, 204);
+}
+
+
+.siteBattlefield {
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; */
+    color: rgb(1, 107, 169);
+}
+
+.a {
+    color: rgb(39, 39, 39);
+    background-color: rgb(160, 160, 160);
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    /* text-align: center; */
+
+}
+
+.b {
+    
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; */
+}
+
+.c {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+.d{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
