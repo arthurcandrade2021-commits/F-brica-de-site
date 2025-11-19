@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+h1{
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #00ffd0, #00c8ff, rgb(0, 255, 72));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.abu{
+    /* background: linear-gradient(blue,red, white );
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}

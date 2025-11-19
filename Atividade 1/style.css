@@ -1,90 +1,128 @@
 body {
-    background-color: black;
-    color: white;
-    margin-left: 30%;
+    background-color: rgb(117, 117, 117);
+    color: rgb(209, 209, 209);
+    margin-left: 25%;
     margin-right: 25%;
 }
 
-.titulo1 {
-    left: 20%;
+.titulo {
+    left:  15px;
     position: relative;
-    /* color: #00c8ff; */
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
-    
     font-weight: bold;
-    background: linear-gradient(90deg, #0073ef, #a3bcff, rgb(0, 255, 170));
+    background: linear-gradient(90deg, #0073ef, #7f9000b9, rgb(121, 199, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+/* Os -webkit-text-stroke-width, -webkit-text-stroke-color, 
+-webkit-background-clip, -webkit-text-fill-color, não sei o que faz*/
+}
+
+.titulo1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    font-weight: bold;
+    background: linear-gradient(90deg, #002956, #7f9000b9, rgb(0, 48, 83));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-h2 {
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.765);
-    font-size: 15px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #ff9e9e, #33d3ff, rgb(0, 255, 213));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;  */
-    color: rgb(74, 115, 204);
+.link{
+    overflow: hidden;
 }
 
+.link a {
+    float: left;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+.link a:hover{
+    background-color: #ff0000;
+    color: rgb(196, 31, 31);
+}
 
 .siteBattlefield {
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+color: #000000;
+}
+
+.discordBattlefield{
+    color: rgb(0, 0, 0);
+}
+
+.link{
     font-size: 15px;
+    text-align: center;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.457);
     font-weight: bold;
-    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    background: linear-gradient(90deg, #a0e6ff, #e1ff00b9, rgb(121, 199, 255));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center; */
-    color: rgb(1, 107, 169);
 }
 
-.a {
-    color: rgb(39, 39, 39);
-    background-color: rgb(160, 160, 160);
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+.inicio {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
     font-size: 15px;
     font-weight: bold;
-    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
-    /* text-align: center; */
-
+    -webkit-text-fill-color: transparent;
 }
 
-.b {
+ .sobre {
     
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
     font-size: 15px;
     font-weight: bold;
-    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-align: center; */
+    text-align: center;
 }
 
-.c {
+.ComoJogar {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
     font-size: 15px;
     font-weight: bold;
-    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
 }
-.d{
+
+.formulario {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(210, 39, 39, 0.457);
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
     font-size: 15px;
     font-weight: bold;
-    background: linear-gradient(90deg, #353535, #00c8ff, rgb(2, 41, 48));
+    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
+} 
+
+.documentario {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
+    font-size: 15px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+} 
+
+.copy{
+    position: relative;
+    top: 50%;
+    color: black;
+}
+.td{
+    font-size: 15px;
 }

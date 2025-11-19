@@ -1,0 +1,38 @@
+name: 🗿 🚀 Deploy & Quality Assurance
+
+on: 
+  push:
+    branches:
+      - main
+  workflows_dispatch:
+
+permission:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: ${{ github.workflow }}-${{github.ref }}
+  cacel-in-progress: true
+
+jobs:
+  deploy:
+    name: 🚀 Deployto Github pages
+    runs-on: ubuntu-latest
+    if: github.ref == 'reefs/heads/main'
+    outputs:
+      pages_url: ${{ steps.deploymente.outputs.pages_url }}
+    
+    enviroument:
+      name: github-pages
+      url: ${{ steps.deploymente.outputs.pages_url }}
+
+    steps:
+       - name: 📥 Checkout code
+         uses: actions/Checkout@b4 
+
+       - name: 📄 Setup Pages
+         uses: actions/configure-pages@v4
+
+       - name: 📦 Uplaod artifact
+         uses: actions/uplaod-pages-artifact@v3
