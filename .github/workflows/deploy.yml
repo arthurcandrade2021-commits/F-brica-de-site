@@ -1,38 +1,38 @@
-name: 🗿 🚀 Deploy & Quality Assurance
+name: 🚀 Deploy & quality Assurance
 
-on: 
+on:
   push:
     branches:
       - main
-  workflows_dispatch:
+  woekflow_dispatch:
 
-permission:
+permissions:
   contents: read
   pages: write
   id-token: write
 
 concurrency:
-  group: ${{ github.workflow }}-${{github.ref }}
-  cacel-in-progress: true
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  deploy:
-    name: 🚀 Deployto Github pages
+  deplay:
+    name: 🚀 Deploy to github pages
     runs-on: ubuntu-latest
-    if: github.ref == 'reefs/heads/main'
+    if: github.ref == 'refs/heads/main'
     outputs:
-      pages_url: ${{ steps.deploymente.outputs.pages_url }}
-    
-    enviroument:
+      page_url: ${{ steps.deployment.outputs.page_url }}
+
+    environment:
       name: github-pages
-      url: ${{ steps.deploymente.outputs.pages_url }}
+      url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-       - name: 📥 Checkout code
-         uses: actions/Checkout@b4 
+      - name: 📥 Checkout code
+        uses: actions/Checkout@v4
 
-       - name: 📄 Setup Pages
-         uses: actions/configure-pages@v4
-
-       - name: 📦 Uplaod artifact
-         uses: actions/uplaod-pages-artifact@v3
+      - name: Setup pages
+        uses: actions/configure-pages@v4
+      
+      - name: Upload artifact
+        uses: actions/Upload-pages-artifact@v4

@@ -131,3 +131,41 @@ color: #000000;
     font-size: 15px;
 }
 
+.primaria{
+    display: flex;
+    position: center;
+    background-clip: valor;
+    background: linear-gradient(to right, rgb(90, 160, 65), rgb(103, 161, 255), rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.link2{
+    background-clip: valor;
+    background: linear-gradient(to right, rgb(170, 223, 47), rgb(85, 150, 255), rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.link{
+    background-clip: valor;
+    background: linear-gradient(to right, rgb(255, 0, 0), rgb(74, 152, 255), rgb(30, 255, 0));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h2{
+    background-clip: valor;
+    background: linear-gradient(to right, rgb(215, 255, 122), rgb(89, 136, 212), rgb(0, 255, 247));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button{
+    /* background-color: rgb(79, 85, 2); */
+    box-shadow: 2px solid white;
+    background: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
+}
+
+p{
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
