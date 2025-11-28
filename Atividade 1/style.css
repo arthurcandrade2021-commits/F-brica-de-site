@@ -1,38 +1,29 @@
 body {
-    background-color: rgb(117, 117, 117);
-    color: rgb(209, 209, 209);
-    margin-left: 25%;
-    margin-right: 25%;
+    background-color: rgb(86, 86, 86);
+    color: rgb(201, 201, 201);
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
-.titulo {
-    left:  15px;
+h1{
+    color: rgb(255, 175, 47);
+    text-align: center;
     position: relative;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    font-weight: bold;
-    background: linear-gradient(90deg, #0073ef, #7f9000b9, rgb(121, 199, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-/* Os -webkit-text-stroke-width, -webkit-text-stroke-color, 
--webkit-background-clip, -webkit-text-fill-color, não sei o que faz*/
 }
 
-.titulo1 {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    font-weight: bold;
-    background: linear-gradient(90deg, #002956, #7f9000b9, rgb(0, 48, 83));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+h2{
+    color: rgb(255, 238, 0);
+    text-align: center;
+    position: relative;
+    
 }
 
-.ih{
-    text-alain: center;
-}
+
 
 .ah{
     overflow: hidden;
+    background-color: rgb(86, 86, 86);
+    
 }
 
 .ah a {
@@ -43,84 +34,34 @@ body {
     padding: 15px 20px;
     text-decoration: none;
 }
+
 .ah a:hover{
-    background-color: #ff0000;
-    color: rgb(196, 31, 31);
-}
-
-.siteBattlefield {
-color: #000000;
-}
-
-.discordBattlefield{
+    background-color: #6d6d6d;
     color: rgb(0, 0, 0);
 }
 
-.ah{
-    font-size: 15px;
-    text-align: center;
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(255, 255, 255, 0.457);
-    font-weight: bold;
-    background: linear-gradient(90deg, #a0e6ff, #e1ff00b9, rgb(121, 199, 255));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.easteregg{
+    overflow: hidden;
+    color: rgb(38, 93, 112);
 }
 
-.inicio {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
-    font-size: 15px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+.easteregg a {
+    float: left;
+    display: block;
+    color: (38, 93, 112);
+    padding: 15px 20px;
+    text-decoration: none;
 }
 
- .sobre {
-    
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
-    font-size: 15px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
+.easteregg a:hover{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
 }
 
-.ComoJogar {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
-    font-size: 15px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
+.site{
+color: #000000;
 }
 
-.formulario {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
-    font-size: 15px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-} 
-
-.documentario {
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(0, 0, 0, 0.457);
-    font-size: 15px;
-    font-weight: bold;
-    background: linear-gradient(90deg, #353535, #006480, rgb(2, 41, 48));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    text-align: center;
-} 
 
 .copy{
     position: relative;
@@ -129,43 +70,48 @@ color: #000000;
 }
 .td{
     font-size: 15px;
+    margin-top: 15%;
+    position: relative;
+
 }
 
-.primaria{
-    display: flex;
-    position: center;
-    background-clip: valor;
-    background: linear-gradient(to right, rgb(90, 160, 65), rgb(103, 161, 255), rgb(0, 255, 247));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-.link2{
-    background-clip: valor;
-    background: linear-gradient(to right, rgb(170, 223, 47), rgb(85, 150, 255), rgb(0, 255, 247));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
 .link{
-    background-clip: valor;
-    background: linear-gradient(to right, rgb(255, 0, 0), rgb(74, 152, 255), rgb(30, 255, 0));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-h2{
-    background-clip: valor;
-    background: linear-gradient(to right, rgb(215, 255, 122), rgb(89, 136, 212), rgb(0, 255, 247));
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: rgb(255, 255, 255);
 }
 
-.button{
-    /* background-color: rgb(79, 85, 2); */
-    box-shadow: 2px solid white;
-    background: linear-gradient(rgb(0, 0, 0), rgb(78, 78, 78));
+.link:hover{
+    background-color: black;
 }
 
-p{
-    padding-left: 10px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+.um{
+   color: rgb(255, 0, 0);
 }
+
+a{
+    color: rgb(255, 0, 0);
+}
+
+.saiba{
+    color: rgb(28, 28, 28);
+}
+
+.butao {
+  padding: 10px 24px;
+  background-color: #2b2b2b;
+  color: rgb(254, 254, 254);
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.2s ease infinit;
+}
+
+.butao:hover {
+  background-color: #000000;
+  color:rgb(255, 0, 0);
+}
+
+.butao:active {
+  transform: scale(0.97);
+}
+
